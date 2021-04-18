@@ -1,0 +1,30 @@
+{
+  "name": "contact-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "start": "webpack serve",
+    "jsonServer":"json-server --watch api/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "install": "^0.13.0",
+    "npm": "^7.6.3",
+    "server": "^1.0.32",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev": "^1.1.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "json-server": "^0.16.3"
+  }
+}

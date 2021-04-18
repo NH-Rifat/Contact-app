@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "firstName": "Najmul",
+      "lastName": "Hasan",
+      "email": "rifatr729@gmail.com",
+      "phone": "01757768201",
+      "id": 1
+    },
+    {
+      "firstName": "Rokibullahhhh Rahman",
+      "lastName": "Hasan",
+      "email": "hasanrifatr1@gmail.com",
+      "phone": "01757768201",
+      "id": 2
+    }
+  ]
+}

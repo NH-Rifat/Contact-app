@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link Bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- link font awesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container center-text">
+            <h1>Contact App</h1>
+            <p class="lead">Now you can Manage your client Data</p>
+        </div>
+    </div>
+    <div class="container container-class">
+        <div class="card card-body mb-4">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="firstName">FirstName</label>
+                    <input type="text" name="firstName" class="form-control" id="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">LastName</label>
+                    <input type="text" name="lastName" class="form-control" id="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Phone</label>
+                    <input type="text" name="phone" class="form-control" id="phone">
+                </div>
+
+                <input type="text" id="id" hidden>
+
+                <button class="btn btn-block btn-primary" id="contact-submit">
+                    Submit Contact
+                </button>
+                <div class="form-end"></div>
+            </form>
+        </div>
+
+        <div id="contacts" class="mb-4">
+            <!-- <div class="card mb-4">
+                <div class="card-body mb-3">
+                    <h5 class="card-title">Hasan Rifat</h5>
+                    <p class="card-text">hasan@gmail.com</p>
+                    <p class="card-text">01757768201</p>
+                    <a href="#" class="mr-3" id="edit">
+                        <i class="fas fa-pencil-alt"  ></i>
+                    </a>
+                    <a href="#"  id="delete">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./build/bundle.js"></script>
+</body>
+</html>
